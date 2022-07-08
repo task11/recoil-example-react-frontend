@@ -1,8 +1,12 @@
+import React from "react";
+import { RecoilRoot } from 'recoil';
+import CharacterCounter from "./CharacterCounter";
+
 function App() {
   return (
-    <div>
-      App
-    </div>
+    <RecoilRoot>
+      <CharacterCounter />
+    </RecoilRoot>
   );
 }
 
